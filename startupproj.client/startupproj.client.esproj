@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.784122">
+  <PropertyGroup>
+    <StartupCommand>npm start</StartupCommand>
+    <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\startupproj.client\browser\</BuildOutputFolder>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove=".vscode/launch.json" />
+    <None Remove="dist\startupproj.client\3rdpartylicenses.txt" />
+    <None Remove="dist\startupproj.client\browser\favicon.ico" />
+    <None Remove="dist\startupproj.client\browser\index.html" />
+    <None Remove="dist\startupproj.client\browser\main-Y2ZCBVBX.js" />
+    <None Remove="dist\startupproj.client\browser\polyfills-A7MJM4D4.js" />
+    <None Remove="dist\startupproj.client\browser\styles-5INURTSO.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\startupproj.client\browser\" />
+  </ItemGroup>
+</Project>
