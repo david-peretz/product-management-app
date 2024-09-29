@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:4200",
 "RedirectUrl": "",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\..\\startupproj.client",
+"WorkingDirectory": "C:\\Users\\pc\\source\\repos\\david-peretz\\product-management-app\\StartUpProj.Server\\..\\startupproj.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }

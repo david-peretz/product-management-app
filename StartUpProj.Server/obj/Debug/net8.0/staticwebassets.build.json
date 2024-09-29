@@ -1,23 +1,11 @@
 {
   "Version": 1,
-  "Hash": "GbLsj05SVkJ/c6DW6jN2uAQq3aKUO6otcMtJfQo1Cs0=",
+  "Hash": "kFMtKQvaIqR8s95YF/8iu46OrK1aWVhQkyqxVO2pvCU=",
   "Source": "StartUpProj.Server",
   "BasePath": "_content/StartUpProj.Server",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [
-    {
-      "Identity": "C:\\Users\\pc\\source\\repos\\StartUpProj\\startupproj.client\\startupproj.client.esproj",
-      "Version": 2,
-      "Source": "startupproj.client",
-      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
-      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
-      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
-    }
-  ],
+  "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
   "Assets": []
 }

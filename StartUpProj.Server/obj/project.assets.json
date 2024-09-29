@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Microsoft.AspNetCore.SpaProxy/8.0.5": {
+      "Microsoft.AspNetCore.SpaProxy/8.0.8": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll": {}
@@ -107,10 +107,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.SpaProxy/8.0.5": {
-      "sha512": "7iEMQelKbwKS5Lk79d/yTOqYSiLPq/wB07Gx4FaFUmF4cv+jtR7vWE55ODaioM+WOHV/ke9HqBCrpfilaaG/Vw==",
+    "Microsoft.AspNetCore.SpaProxy/8.0.8": {
+      "sha512": "T9Zhb64OmOr2nU0iND7br44EfJrQYHpopxvq33l33uZM2Uu/V2GTHKg5OmGMO3XJuUX59fhqvMyXOcFFj6k1pA==",
       "type": "package",
-      "path": "microsoft.aspnetcore.spaproxy/8.0.5",
+      "path": "microsoft.aspnetcore.spaproxy/8.0.8",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -118,7 +118,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "build/Microsoft.AspNetCore.SpaProxy.targets",
         "lib/net8.0/Microsoft.AspNetCore.SpaProxy.dll",
-        "microsoft.aspnetcore.spaproxy.8.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.spaproxy.8.0.8.nupkg.sha512",
         "microsoft.aspnetcore.spaproxy.nuspec"
       ]
     },
@@ -464,11 +464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\StartUpProj.Server.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Source\\Repos\\david-peretz\\product-management-app\\StartUpProj.Server\\StartUpProj.Server.csproj",
       "projectName": "StartUpProj.Server",
-      "projectPath": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\StartUpProj.Server.csproj",
+      "projectPath": "C:\\Users\\pc\\Source\\Repos\\david-peretz\\product-management-app\\StartUpProj.Server\\StartUpProj.Server.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Source\\Repos\\david-peretz\\product-management-app\\StartUpProj.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",

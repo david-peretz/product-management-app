@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\StartUpProj.Server.csproj": {}
+    "C:\\Users\\pc\\source\\repos\\david-peretz\\product-management-app\\StartUpProj.Server\\StartUpProj.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\StartUpProj.Server.csproj": {
+    "C:\\Users\\pc\\source\\repos\\david-peretz\\product-management-app\\StartUpProj.Server\\StartUpProj.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\StartUpProj.Server.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\source\\repos\\david-peretz\\product-management-app\\StartUpProj.Server\\StartUpProj.Server.csproj",
         "projectName": "StartUpProj.Server",
-        "projectPath": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\StartUpProj.Server.csproj",
+        "projectPath": "C:\\Users\\pc\\source\\repos\\david-peretz\\product-management-app\\StartUpProj.Server\\StartUpProj.Server.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Source\\Repos\\david-peretz\\product-management-app\\StartUpProj.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
