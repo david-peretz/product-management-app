@@ -2,5 +2,5 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/StartUpProj.Server/StartUpProj.Server.csproj
-/StartUpProj.Server/StartUpProj.Server.csproj
+/StartUpProj.Server/bin
+/StartUpProj.Server/obj
