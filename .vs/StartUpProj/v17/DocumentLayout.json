@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\source\\repos\\StartUpProj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E90D4F45-993D-4A4B-86C0-9C6ECE328FF9}|StartUpProj.Server\\StartUpProj.Server.csproj|c:\\users\\pc\\source\\repos\\startupproj\\startupproj.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E90D4F45-993D-4A4B-86C0-9C6ECE328FF9}|StartUpProj.Server\\StartUpProj.Server.csproj|solutionrelative:startupproj.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AD4114A-5BBA-4E71-8D5B-9BE897A0529E}|startupproj.client\\startupproj.client.esproj|c:\\users\\pc\\source\\repos\\startupproj\\startupproj.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0AD4114A-5BBA-4E71-8D5B-9BE897A0529E}|startupproj.client\\startupproj.client.esproj|solutionrelative:startupproj.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E90D4F45-993D-4A4B-86C0-9C6ECE328FF9}|StartUpProj.Server\\StartUpProj.Server.csproj|c:\\users\\pc\\source\\repos\\startupproj\\startupproj.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E90D4F45-993D-4A4B-86C0-9C6ECE328FF9}|StartUpProj.Server\\StartUpProj.Server.csproj|solutionrelative:startupproj.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "StartUpProj.Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "StartUpProj.Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T09:54:52.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "proxy.conf.js",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\StartUpProj\\startupproj.client\\src\\proxy.conf.js",
+              "RelativeDocumentMoniker": "startupproj.client\\src\\proxy.conf.js",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\StartUpProj\\startupproj.client\\src\\proxy.conf.js",
+              "RelativeToolTip": "startupproj.client\\src\\proxy.conf.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-26T09:54:15.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\Program.cs",
+              "RelativeDocumentMoniker": "StartUpProj.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\source\\repos\\StartUpProj\\StartUpProj.Server\\Program.cs",
+              "RelativeToolTip": "StartUpProj.Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T09:53:29.047Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
