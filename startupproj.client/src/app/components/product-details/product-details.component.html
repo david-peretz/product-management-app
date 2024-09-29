@@ -1,0 +1,23 @@
+<!-- src/app/components/product-details/product-details.component.html -->
+<div class="product-details">
+  <div class="form-group">
+    <label for="productName">Product Name</label>
+    <input id="productName" [(ngModel)]="product.name" placeholder="Name" />
+  </div>
+  <div class="form-group">
+    <label for="productDescription">Description</label>
+    <textarea id="productDescription" [(ngModel)]="product.description" placeholder="Description"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="productPrice">Price</label>
+    <input id="productPrice" [(ngModel)]="product.price" type="number" placeholder="Price" />
+  </div>
+  <div class="form-group">
+    <label for="productImage">Image</label>
+    <input id="productImage" type="file" (change)="onImageChange($event)" />
+  </div>
+  <div *ngIf="product.imageUrl" class="form-group">
+    <img [src]="product.imageUrl" alt="Product image" />
+  </div>
+  <button (click)="onSave()" [disabled]="!product.name || product.price <= 0">Save</button>
+</div>
