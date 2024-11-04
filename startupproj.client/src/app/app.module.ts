@@ -12,32 +12,36 @@ import { ProductService } from './services/product.service';
 import { TimerService } from './services/timer.services';
 import { RandomColorDirective } from './directives/random-color.directive';
 import { StopwatchComponent } from './components/stopwatch/stopwatch.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/products', pathMatch: 'full' },
-  { path: 'products', component: ProductListComponent },
-  { path: 'products/:id', component: ProductDetailsComponent },
-  { path: 'stopwatch', component: StopwatchComponent },
+ // { path: '', redirectTo: '/products', pathMatch: 'full' },
+  // { path: 'products', component: ProductListComponent },
+  //{ path: 'products/:id', component: ProductDetailsComponent },
+  // {
+  //   path: 'product-details',
+  //   loadComponent: () => import('./components/product-details/product-details.component').then(m => m.ProductDetailsComponent)
+  // },
+//   { path: 'stopwatch', component: StopwatchComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductListComponent,
-    ProductItemComponent,
-    ProductDetailsComponent
+    //ProductListComponent,
+   // ProductItemComponent
     
   ],
   imports: [
   
     BrowserModule,
-    FormsModule,
-    RouterModule.forRoot(routes),
+    RouterModule,         // ניהול נתיבים
+    AppRoutingModule
   ],
-  providers: [ProductService,TimerService],
+ // providers: [ProductService,TimerService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

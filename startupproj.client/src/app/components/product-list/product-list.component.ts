@@ -1,13 +1,19 @@
 // src/app/components/product-list/product-list.component.ts
-import { Component, OnInit } from '@angular/core';
+import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
 import { ProductService, Product } from '../../services/product.service';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { CommonModule } from '@angular/common';
+import { ProductDetailsComponent } from '../product-details/product-details.component';
+
 
 @Component({
   selector: 'app-product-list',
+  standalone: true,
+  imports: [CommonModule, ProductDetailsComponent],
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  styleUrls: ['./product-list.component.css'],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class ProductListComponent implements OnInit {
   products$?: Observable<Product[]>;

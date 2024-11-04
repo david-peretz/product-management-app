@@ -1,8 +1,13 @@
-// src/app/components/product-details/product-details.component.ts
+
 import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { Product } from '../../services/product.service';
+import { FormsModule } from '@angular/forms'; // Import FormsModule for ngModel support
+
 
 @Component({
+  standalone: true,
+  imports: [CommonModule,FormsModule],
   selector: 'app-product-details',
   templateUrl: './product-details.component.html',
   styleUrls: ['./product-details.component.css']
